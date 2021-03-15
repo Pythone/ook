@@ -148,7 +148,7 @@ class Interpreter(object):
         self.interpret_raw_text(file.read())
         
     def interactive_mode(self):
-        print("Ook! and Brainfuck interpreter V0.9 - written by Johannes Charra in 2011.)
+        print("Ook! and Brainfuck interpreter V0.9 - written by Johannes Charra in 2011.")
         print("Type '?' to display the status of the interpreter. ")
         print("Type 'b' to enter brainfuck mode. Empty input quits.")
         while True:
